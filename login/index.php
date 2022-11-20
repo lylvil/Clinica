@@ -1,3 +1,13 @@
+//Denominacion del componente es la funcion de logeo y validacion de datos
+//Karina Zelaya Correo:ia.zg100317@ufg.edu.sv Telefono: 78221375
+//Pantalla de login
+//Codigo fue creado en 17 Ago 2021
+//Codigo revisado en 4 Dic 2021
+//Codigo Modificado 3 de Nov 2022
+//Codigo existe para poder hacer un logeo de entrada al sistema por cada miembro de stafff
+//se modifico recientemente para poder incorporar los lineamientos mas recientes de esta materia
+
+
 <?php 
 require_once "../pre-includes/all.php"; 
 

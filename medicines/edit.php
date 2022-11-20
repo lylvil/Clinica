@@ -1,3 +1,13 @@
+//Denominacion del componente Editar, las medicinas del inventario
+//Karina Zelaya Correo:iav.lylvil@ufg.edu.sv Telefono: 77498292
+//Medicinas
+//Codigo fue creado en 05 Ago 2021
+//Codigo revisado en 25 Nov 2021
+//Codigo Modificado 10 de Nov 2022
+//Codigo existe para poder hacer administrar el inventario de medicinas, las cuales estan guardadas en la base de datos
+//para poder tener accesso y poder crear reporteria
+
+
 <?php
 	require_once "../includes/initiate.php";
 	page_permission("introduce_medicine");	
@@ -7,12 +17,12 @@
 
 <div id="edit-medicine" class="container page">
 <div class="panel panel-default">
-<div class="panel-heading theme-medicines"><span class="inlineicon edit-mini">Edit Medicine</span></div>
+<div class="panel-heading theme-medicines"><span class="inlineicon edit-mini">Editar Medicina</span></div>
 <div class="panel-body">
 <ol class="breadcrumb link-medicines">
   <li><a href="../dashboard"><i class="glyphicon glyphicon-home"></i>Home</a></li>
-  <li><a href="../medicines/">Medicine Directory</a></li>
-  <li class="active">Edit Medicine</li>
+  <li><a href="../medicines/">Directorio de Medicinas</a></li>
+  <li class="active">Editar Medicinas</li>
 </ol>
 
 <?php
